@@ -61,7 +61,7 @@ ul {
 .content hr {
   flex-grow: 1;
   border: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.2); /* Adjust color and style as needed */
+  border-top: 2px dotted rgba(0, 0, 0, 0.2); /* Adjust color and style as needed */
   margin: 0;
   margin-inline: 20px;
 }
