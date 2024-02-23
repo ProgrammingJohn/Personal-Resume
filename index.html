@@ -3,9 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>John Exterkamp</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
-    HELLO
+    <div class="container">
+      <div id="profile-section">
+        <img id="profile" src="/static/imgs/profile.JPG" alt="John Exterkamp" />
+        <div class="contact">
+          <div class="tooltip">
+            <img class="icon" src="static/svgs/phone.svg" />
+            <span class="tooltiptext">(859)-360-9515</span>
+          </div>
+          <img class="icon" id="linkedIn" src="static/svgs/linkedin.svg" />
+          <div class="tooltip">
+            <img class="icon" src="static/svgs/email.svg" />
+            <span class="tooltiptext">john.exterkamp@icloud.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <header>
+          <h1>John Exterkamp</h1>
+        </header>
+
+        <section class="section education"></section>
+
+        <section class="section experience"></section>
+
+        <section class="section skills"></section>
+
+        <section class="section social-media"></section>
+      </div>
+    </div>
+    <script src="/static/main.js"></script>
   </body>
 </html>
