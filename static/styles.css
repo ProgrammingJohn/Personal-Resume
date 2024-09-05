@@ -32,14 +32,20 @@ body {
   border-radius: 50%;
 }
 .icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5em;
+  height: 1.5em;
   padding: 6px;
   vertical-align: middle;
 }
 h1 {
   font-size: 3rem;
   margin: auto;
+}
+h2 {
+  margin: 10px;
+}
+i {
+  color: #899499;
 }
 header p {
   margin: auto;
@@ -54,8 +60,20 @@ ul {
 .list-container {
   display: flex;
   align-items: center;
+  height: 5%;
+}
+.sub-list-container {
+  padding-left: 10%;
+}
+.skills span {
+  color: #727272;
+  font-size: 1.2em;
+  margin: 10px;
 }
 .list-container span {
+  color: #727272;
+}
+.list-container h3 {
   font-size: 1.1em;
 }
 .content hr {
@@ -72,14 +90,22 @@ li {
 .content {
   text-align: center;
 }
-#contact {
-  margin: auto;
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .tooltip {
   position: relative;
   display: inline-block;
 }
-
+.icon-row {
+  justify-content: space-evenly;
+}
+.icon-row img {
+  border: 1px solid #727272;
+  border-radius: 5px;
+}
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
